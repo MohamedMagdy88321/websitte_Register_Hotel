@@ -6,3 +6,4 @@ The number of pages contains 6 pages, each page containing a living room
 4) The next page contains a video describing the entire hotel, which includes the activities that the hotel offers.
 5) The next page is where people can make reservations and can specify the coming and going day and the number of people, and there is also a place to put any comments.
 6) The last page is for confirming the reservation and includes the location of the hotel
+   The languages ​​I used to do this project are (HTML) and (CSS) and (JAVASCRIPT) and (PHP)
