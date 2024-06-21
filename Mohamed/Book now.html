@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Home-Booking</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-toggler bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="Img/buildings-with-rising-sun-2238ld.png" alt="Site Logo" width="100" height="100">
+        <span class="logo-text">Hotel</span>
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+
+          <a class="Hotel nav-link active" aria-current="page" href="Videuo.html" target="_self">Home</a>
+          <a class="Hotel nav-link" href="Infor.html" target="_self">Information</a>
+          <a class="Hotel nav-link" href="Room.html" target="_self">Active</a>
+          <a class="Hotel nav-link" href="Book now.html" target="_self">Booknow</a>
+          <a class="Hotel nav-link" href="ContainUs.html" target="_self">Contain Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="bod">
+  <div class="containr">
+    <header>Regisrations </header>
+  <form action="php/book.php">
+    <div class="form frist">
+      <div class="details personal">
+        <span class="title">Hotel-web</span>
+
+         <div class="fields">
+          <div class="input-fields">
+            <label for="customer-name">Customer Name:</label>
+            <input type="text" name="customer-name" id="customer-name" placeholder="Entre Your Name" required>
+          </div>
+        <div class="input-fields">
+            <label for="checkin">CheckIn:</label>
+            <input type="date" name="checkin" id="checkin" required>
+          </div>
+          <div class="input-fields">
+            <label for="checkout">CheckOUT:</label>
+            <input type="date" name="checkout" id="checkout" required>
+          </div>
+          <div class="input-fields">
+            <label for="number"  >Coose Number  Room </label>
+            <input type="number" name="number" id="number" min="1" max="3" placeholder="between 1 : 3" required>
+          </div>
+        <div class="input-fields">
+            <label for="contact_number">Contact Number:</label>
+            <input type="tel" name="contact_number" id="contact_number"  pattern="[0-9]{3}-[0-9]{4}" required>
+          </div>
+          <div class="input-fields">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Entre E-mail" required >
+          </div>
+          <div class="input-fields">
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" placeholder="Entre Comment"></textarea><br>
+            <input type="submit" value="submit">
+           </div>
+         </div>
+        </div>
+    </div>
+    </div>
+  </form>
+</div>
+<script src="javascript/java.js"></script>
+       <footer>
+            <small><a href="/index.html">Hotel</a> &copy;2024, All Righs Reserved </small>
+        </footer>
+</body>
+</html>
